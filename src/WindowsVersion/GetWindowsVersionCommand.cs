@@ -12,7 +12,7 @@ namespace WindowsVersion;
 /// The Get-WindowsVersion cmdlet retrieves Windows version information.
 /// </summary>
 [Cmdlet(VerbsCommon.Get, "WindowsVersion",
-        HelpUri = "https://github.com/takakiwakuda/WindowsVersion/blob/main/src/doc/Get-WindowsVersion.md")]
+        HelpUri = "https://github.com/takakiwakuda/WindowsVersion/blob/main/src/WindowsVersion/doc/Get-WindowsVersion.md")]
 [OutputType(typeof(WindowsVersionInfo))]
 public sealed class GetWindowsVersionCommand : PSCmdlet
 {
